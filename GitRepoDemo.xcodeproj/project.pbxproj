@@ -16,6 +16,7 @@
 		D36B71DB27BCCF1400706337 /* GitRepoDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36B71DA27BCCF1400706337 /* GitRepoDemoTests.swift */; };
 		D36B71E527BCCF1400706337 /* GitRepoDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36B71E427BCCF1400706337 /* GitRepoDemoUITests.swift */; };
 		D36B71E727BCCF1400706337 /* GitRepoDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36B71E627BCCF1400706337 /* GitRepoDemoUITestsLaunchTests.swift */; };
+		D36B71F427BCCF5E00706337 /* SampleUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36B71F327BCCF5E00706337 /* SampleUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D36B71E027BCCF1400706337 /* GitRepoDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitRepoDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D36B71E427BCCF1400706337 /* GitRepoDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitRepoDemoUITests.swift; sourceTree = "<group>"; };
 		D36B71E627BCCF1400706337 /* GitRepoDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitRepoDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D36B71F327BCCF5E00706337 /* SampleUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				D36B71CC27BCCF1400706337 /* Assets.xcassets */,
 				D36B71CE27BCCF1400706337 /* LaunchScreen.storyboard */,
 				D36B71D127BCCF1400706337 /* Info.plist */,
+				D36B71F327BCCF5E00706337 /* SampleUtility.swift */,
 			);
 			path = GitRepoDemo;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D36B71F427BCCF5E00706337 /* SampleUtility.swift in Sources */,
 				D36B71C827BCCF1300706337 /* ViewController.swift in Sources */,
 				D36B71C427BCCF1300706337 /* AppDelegate.swift in Sources */,
 				D36B71C627BCCF1300706337 /* SceneDelegate.swift in Sources */,
